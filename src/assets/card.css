@@ -1,0 +1,30 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 10rem;
+  background-color: rgb(208, 208, 208);
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.controls button {
+  width: 30%;
+  background-color: white;
+  height: 2rem;
+  border-radius: 3px;
+}
+
+.controls .sell:hover {
+  background-color: red;
+  color: white;
+  transition: .2s;
+}
+
+.controls .buy:hover {
+  background-color: green;
+  color: white;
+  transition: .2s;
+}

@@ -1,0 +1,29 @@
+:root {
+  --action-bar-border: #1c2023;
+  --qwik-light-blue: #18b6f6;
+  --qwik-light-purple: #ac7ff4;
+  --qwik-dark-purple: #713fc2;
+}
+
+.action-bar-wrapper {
+  height: auto;
+  border-radius: 5px;
+}
+
+/* AutoCompleteSearch */
+
+.autocomplete-input {
+  width: 100%;
+  min-height: 2rem;
+  border-radius: 5px;
+  background-color: #5c5858;
+  color: white;
+}
+
+.autocomplete-input::placeholder {
+  color: white;
+}
+
+.suggestions-list {
+  background-color: #5c5858;
+}
